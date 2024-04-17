@@ -66,3 +66,4 @@ C:\Users\oxyfa\Downloads\Tutorial5\APBD6\obj\Debug\net8.0\refint\APBD6.dll
 C:\Users\oxyfa\Downloads\Tutorial5\APBD6\obj\Debug\net8.0\APBD6.pdb
 C:\Users\oxyfa\Downloads\Tutorial5\APBD6\obj\Debug\net8.0\APBD6.genruntimeconfig.cache
 C:\Users\oxyfa\Downloads\Tutorial5\APBD6\obj\Debug\net8.0\ref\APBD6.dll
+C:\Users\oxyfa\Downloads\Tutorial5\APBD6\obj\Debug\net8.0\APBD6.sourcelink.json
