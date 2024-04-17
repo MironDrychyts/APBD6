@@ -27,7 +27,7 @@ public class AnimalsController : ControllerBase
     }
 
     [HttpPost]
-    public IActionResult AddAnimal(AddAnimal animal)
+    public IActionResult AddAnimal([FromBody] AddAnimal animal)
     {
         _animalRepository.AddAnimal(animal);
         
@@ -36,7 +36,7 @@ public class AnimalsController : ControllerBase
     }
 
     [HttpPut("{id:int}")]
-    public IActionResult UpdateAnimal(int id, AddAnimal animal)
+    public IActionResult UpdateAnimal(int id, [FromBody] AddAnimal animal)
     {
         _animalRepository.UpdateAnimal(id,animal);
         return NoContent();
